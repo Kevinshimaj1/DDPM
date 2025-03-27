@@ -1,0 +1,7 @@
+diffusion:
+    T: 1000 # numero di time-steps
+    beta_start: 0.0001 # valore iniziale del rumore
+    beta_end: 0.02 # valore finale del rumore
+training:
+    batch_size: 64 # dimensione del batch
+    learning_rate: 0.0001 
